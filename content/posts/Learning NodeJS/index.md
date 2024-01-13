@@ -9,7 +9,7 @@ series_order: 1
 thumbnail: "/featured.png"
 ---
 
-## update for the week!
+## Update for the week!
 
 I've switched back to Arch Linux, specifically the Arco Linux Hyprland setup, from Nobara Linux. Excited about the change!
 
