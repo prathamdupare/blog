@@ -116,13 +116,13 @@ disableTextInHeader = false
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyBjacy8fW2XiVpxB7GyJ6XOAP8nDgyq1EY"
+  authDomain = "blog-fosspage.firebaseapp.com"
+  projectId = "blog-fosspage"
+  storageBucket = "blog-fosspage.appspot.com"
+  messagingSenderId = "580397594723"
+  appId = "1:580397594723:web:91c7cdecc23c605158a056"
+  measurementId = "G-9TWQ4Z0DB7"
 
 [fathomAnalytics]
   # site = "ABC12345"
