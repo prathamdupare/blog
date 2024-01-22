@@ -24,6 +24,12 @@
   name = "FOSS Alternatives"
   pageRef = "alternative"
   weight = 30
+
+
+[[main]]
+  name = "Learning Log"
+  pageRef = "learningLog"
+  weight = 30
 #[[main]]
 #  name = "Parent"
 #  weight = 20
