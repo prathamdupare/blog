@@ -321,3 +321,5 @@ const Navbar = () => {
 ```
 
 Thanks for reading!
+
+> 'Jack of all trades master of none, though oftentimes better than master of one.'
