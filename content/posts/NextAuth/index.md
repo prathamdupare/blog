@@ -30,7 +30,6 @@ Next.js 13.2 introduced Route Handlers, the preferred way to handle REST-like re
 You can initialize NextAuth with a Route Handler too, similar to API Routes.
 
 ```javascript
-
 # /app/api/auth/[...nextauth]/route.js
 
 import NextAuth from "next-auth"
@@ -40,7 +39,6 @@ const handler = NextAuth({
 })
 
 export { handler as GET, handler as POST }
-
 ```
 
 Now, let's provide options to this, specifying the providers for sign-in.
@@ -52,13 +50,11 @@ Create the options.js file in the same directory as the route.
 For this tutorial, we'll use the Github Provider.
 
 ```
-
 # /app/api/auth/[...nextauth]/options.js
 
 export const options = {
 providers: []
 }
-
 ```
 
 ## Providers
@@ -76,9 +72,7 @@ Now, set up the secret string required by NextAuth:
 To generate a random string, run this command in your terminal:
 
 ```
-
 openssl rand -base64 32
-
 ```
 
 Now, create a .env.local file on the same level as the package.json file (i.e., the root directory) and paste the generated string:
@@ -111,7 +105,6 @@ Copy the Client ID, generate the secret, and confirm access.
 Add Client ID and Client secret to the .env.local file:
 
 ```
-
 # .env.local
 
 NEXTAUTH_SECRET=2Imue0dkSptxssYHeYU5WOWrpFESkq++SWbG/ItyYT4=
@@ -119,7 +112,6 @@ NEXTAUTH_SECRET=2Imue0dkSptxssYHeYU5WOWrpFESkq++SWbG/ItyYT4=
 
 GITHUB_SECRET=74f7032f71a995401fasdfads9b870b255e6c18159b
 GITHUB_ID=0c384680asdfasfcb9c61
-
 ```
 
 ## Options
@@ -263,7 +255,6 @@ Create a 'middleware.js' file on the same level as the 'app' directory
 # /middleware.js
 
 export { default } from "next-auth/middleware";
-
 ```
 
 This will protect everything in your app, even the home page. You can check this by going to http://localhost:3000 and you will be redirected to the signup page.
