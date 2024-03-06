@@ -8,8 +8,6 @@ thumbnail: null
 tags: ["series", "docs"]
 series: ["Next.js Guide"]
 series_order: 1
-seriesOpened: true
-
 ---
 
 ## Introduction
