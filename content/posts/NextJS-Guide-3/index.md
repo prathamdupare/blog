@@ -151,11 +151,11 @@ Regardless of the method chosen, Next.js will automatically generate the relevan
 
 To define static metadata, export a Metadata object from a `layout.js`(we have already seen in previous chapter) or static `page.js` file.
 
-```
+```jsx
 export const metadata = {
-  title: '...',
-  description: '...',
-}
+  title: "...",
+  description: "...",
+};
 
 export default function Page() {}
 ```
