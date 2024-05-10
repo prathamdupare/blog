@@ -47,7 +47,7 @@ Create a separate file for our options.
 
 Create the options.js file in the same directory as the route.
 
-For this tutorial, we'll use the Github Provider.
+For this tutorial, we'll use the Github Provider. There are many providers, you can see the list in NextAuth documentation.
 
 ```
 # /app/api/auth/[...nextauth]/options.js
