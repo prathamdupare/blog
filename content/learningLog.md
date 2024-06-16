@@ -13,13 +13,13 @@ type: alternative
 
 ### Programming
 
-- **Languages:** JavaScript, TypeScript, Bash
-- **Proficient in:** React, Node.js, Express, MongoDB (MERN stack)
-- **Currently learning:** Next.js
+- **Languages:** JavaScript, TypeScript, Golang
+- **Proficient in:** React, Node.js, Express, MongoDB (MERN stack), Next.js
+- **Currently learning:** Golang
 
 ## Tools and Environment
 
-- **Operating System:** Linux (Arch Linux)
+- **Operating System:** Linux (Arch, Nobara Linux)
 - **Window Manager:** Hyprland
 - **Browser:** Floorp Browser
 - **Text Editors:** Neovim, VS Code
@@ -33,9 +33,4 @@ type: alternative
 
 ## Books
 
-<details>
-  <summary>Currently Reading</summary>
-
-1.  **Your Next Five Moves** - Patrick Bet-David (2020)
-
-</details>
+Currently reading - Your next 5 moves - Patrick Bet-David
