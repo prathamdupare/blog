@@ -1,6 +1,6 @@
 ---
 author: Pratham Dupare
-title: FOSS Alternatives
+title: Test Schema
 date: 2022-07-25
 description:
 keywords: ["alternative", "FOSS", "contact"]
@@ -163,3 +163,93 @@ type: alternative
 ```
 
 This normalized schema reduces redundancy, ensures data integrity, and maintains clear relationships between different entities.
+
+For example, If a user has multiple skills, the relational schema you provided already supports this through the **Skills** table. Here's how it works:
+
+### Schema Explanation:
+
+1. **Users Table:**
+
+   Holds information about users (example: username, email, etc.)
+
+   ```markdown
+   | user_id | username | email            | password_hash           | profile_pic          | summary               |
+   | ------- | -------- | ---------------- | ----------------------- | -------------------- | --------------------- |
+   | 1       | john_doe | john@example.com | $2a$12$abcdef1234567890 | /images/john_pic.jpg | Experienced developer |
+   | 2       | jane_doe | jane@example.com | $2a$12$ghijkl4567890123 | /images/jane_pic.jpg | Backend developer     |
+   ```
+
+2. **Skills Table:**
+
+   Holds skills associated with users and links to the `user_id` from the **Users** table.
+
+   ```markdown
+   | skill_id | user_id | name       | level        |
+   | -------- | ------- | ---------- | ------------ |
+   | 1        | 1       | JavaScript | Advanced     |
+   | 2        | 1       | React      | Intermediate |
+   | 3        | 2       | Python     | Advanced     |
+   | 4        | 1       | Node.js    | Intermediate |
+   ```
+
+### Example Scenario:
+
+In the **Skills** table above, John Doe (with `user_id = 1`) has multiple skills:
+
+- JavaScript
+- React
+- Node.js
+
+### Query to Retrieve Multiple Skills:
+
+To retrieve all skills for John Doe (`user_id = 1`), you can use the following SQL query:
+
+```sql
+SELECT
+    Users.username,
+    Skills.name AS skill_name,
+    Skills.level
+FROM
+    Users
+JOIN
+    Skills ON Users.user_id = Skills.user_id
+WHERE
+    Users.user_id = 1;
+```
+
+**Result:**
+
+```markdown
+| username | skill_name | level        |
+| -------- | ---------- | ------------ |
+| john_doe | JavaScript | Advanced     |
+| john_doe | React      | Intermediate |
+| john_doe | Node.js    | Intermediate |
+```
+
+### Detailed Steps:
+
+1. **Insert User Data:**
+
+   ```sql
+   INSERT INTO Users (user_id, username, email, password_hash, profile_pic, summary)
+   VALUES (1, 'john_doe', 'john@example.com', '$2a$12$abcdef1234567890', '/images/john_pic.jpg', 'Experienced developer');
+   ```
+
+2. **Insert Multiple Skills:**
+
+   ```sql
+   INSERT INTO Skills (skill_id, user_id, name, level) VALUES
+   (1, 1, 'JavaScript', 'Advanced'),
+   (2, 1, 'React', 'Intermediate'),
+   (4, 1, 'Node.js', 'Intermediate');
+   ```
+
+### Benefits of This Approach:
+
+1. **Data Redundancy Prevention:** Skills are stored separately, reducing redundant data.
+2. **Scalability:** New skills can be added without modifying the users table.
+3. **Flexibility:** Easy to query users with specific skills or skill levels.
+4. **Maintainability:** Updates to skills and user data are simplified.
+
+This relational design efficiently handles scenarios where a user may have multiple skills, ensuring data is organized, consistent, and easily retrievable.
