@@ -253,3 +253,5 @@ WHERE
 4. **Maintainability:** Updates to skills and user data are simplified.
 
 This relational design efficiently handles scenarios where a user may have multiple skills, ensuring data is organized, consistent, and easily retrievable.
+
+-
