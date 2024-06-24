@@ -48,4 +48,4 @@ These are the new features coming to Android 13.
 If you are familiar with Android 12's rollout, you can guess when Android 13 will get released.
 After releasing [Android 13 beta 4](https://www.tomsguide.com/news/android-13s-final-beta-is-here-and-the-official-release-is-weeks-away) Google described the release as weeks away. So it looks like Android 13 will release in August 2022.
 
-
+-
