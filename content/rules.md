@@ -1,6 +1,6 @@
 ---
 author: Pratham Dupare
-title: Test Schema
+title: Rules
 date: 2022-07-25
 description:
 keywords: ["alternative", "FOSS", "contact"]
