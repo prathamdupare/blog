@@ -1,7 +1,7 @@
 ---
 author: Pratham Dupare
 title: Rules
-date: 2022-07-25
+date: 2024-07-06
 description:
 keywords: ["alternative", "FOSS", "contact"]
 type: alternative
