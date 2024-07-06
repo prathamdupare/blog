@@ -6,74 +6,41 @@ description:
 keywords: ["alternative", "FOSS", "contact"]
 type: alternative
 ---
-
-our-nextjs-app/
+```
+our-next-app/
 ├── app/
-│   ├── (root)/
-│   │   ├── page1/
-│   │   │   ├── index.js
-│   │   │   ├── styles.css
-│   │   │   └── other-files.js
-│   │   ├── page2/
-│   │   │   ├── index.js
-│   │   │   ├── styles.css
-│   │   │   └── other-files.js
-│   │   └── ...
 │   ├── (auth)/
 │   │   ├── api/
-│   │   │   ├── login.js
-│   │   │   ├── register.js
-│   │   │   └── other-api-routes.js
-│   │   └── ...
-│   └── utils/
-│       ├── helper1.js
-│       ├── helper2.js
-│       └── ...
+│   │   │   └── [...]
+│   ├── (root)/
+│   │   ├── home/
+│   │   │   └── page.tsx
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   ├── contact/
+│   │   │   └── page.tsx
+│   │   └── [...]
 ├── components/
-│   ├── header/
-│   │   ├── Header.js
-│   │   ├── Header.module.css
-│   │   └── ...
-│   ├── footer/
-│   │   ├── Footer.js
-│   │   ├── Footer.module.css
-│   │   └── ...
-│   ├── button/
-│   │   ├── Button.js
-│   │   ├── Button.module.css
-│   │   └── ...
-│   └── ...
+│   ├── component-one/
+│   │   ├── ComponentOne.tsx
+│   │   └── ComponentOne.module.css
+│   ├── component-two/
+│   │   ├── ComponentTwo.tsx
+│   │   └── ComponentTwo.module.css
+│   └── [...]
 ├── lib/
 │   ├── actions/
-│   │   ├── action1.js
-│   │   ├── action2.js
-│   │   └── ...
+│   │   └── [...]
 │   ├── helpers/
-│   │   ├── helper1.js
-│   │   ├── helper2.js
-│   │   └── ...
-│   └── ...
-├── pages/
-│   ├── _app.js
-│   ├── _document.js
-│   ├── index.js
-│   ├── about.js
-│   └── ...
+│   │   └── [...]
+│   └── [...]
 ├── public/
-│   ├── images/
-│   │   ├── logo.png
-│   │   └── ...
-│   ├── fonts/
-│   │   ├── custom-font.woff
-│   │   └── ...
-│   └── ...
+│   └── [...]
 ├── styles/
-│   ├── globals.css
-│   ├── variables.css
-│   └── ...
+│   └── [...]
+├── utils/
+│   └── [...]
 ├── .env.local
-├── .gitignore
 ├── next.config.js
 ├── package.json
-├── README.md
-└── ...
+└── README.md
