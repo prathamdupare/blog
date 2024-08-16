@@ -86,8 +86,9 @@ When starting work, I navigate to the desired directory and run `nvim .`, which 
 
 #### Opening a File
 
+<img class="special-img-class" src="/2022/komikku-manga-reader/komikku_servers.png" />
 {{< figure
-    src="../Better Developer/2.png"
+    src="/2024/developer/2.png"
     alt="Telescope"
     caption="Fuzzy finding file with Telescope"
     >}}
