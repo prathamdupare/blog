@@ -2,7 +2,6 @@
 author: "Pratham Dupare"
 title: My dev workflow - Linux, Hyprland ,Neovim and Tmux.
 date: 2024-08-16
-draft: true
 description: ""
 tags: ["Reading"]
 thumbnail: "/2022/komikku-manga-reader/thumbnail.png"
@@ -12,51 +11,76 @@ thumbnail: "/2022/komikku-manga-reader/thumbnail.png"
 Disclaimer: This is not a guide on how I rice my Window manager, what terminal I use, it's purely how I use my tools.
 {{< /alert >}}
 
-### How do I have my developer workflow setup?
+## Introduction
 
-The time has come, I will show you what my developer workflow is and how I use all the tools and become a PRO developer!
+The time has come for me to share my developer workflow and how I use my tools to become a PRO developer!
 
-#### What I don't think about?
+### What I Don't Focus On
 
-- GPU rendered terminals "_cough, cough Alacritty_".
-- Ricing my desktop, color-schemes.
+- GPU-rendered terminals (e.g., _Alacritty_).
+- Ricing my desktop or color schemes.
 
-#### What matters
+### What Matters
 
-- It's fast
+- Speed
 - Lower mental overhead
 
-### The tools I use for the perfect developer workflow! (for me)
+### The Tools I Use for the Perfect Developer Workflow
 
-- Linux (duh!)
-- Window Manger - Hyprland - and yes I have disabled animations.
-- Terminal - foot (cause I use Wayland)
-- Terminal multiplexer - Tmux
+- **Linux** (of course!)
+- **Window Manager**: Hyprland (with animations disabled)
+- **Terminal**: foot (since I use Wayland)
+- **Terminal Multiplexer**: Tmux
 
-{{< alert >}}
-So if you are using Mac, great! It's still better, try to replicate this and find tools that make you fast and productive.
-If you use Windows, upgrade your RAM and play some games, that's all I can say.
+> **Note:** If you’re using Mac, great! Try to replicate this setup and find tools that make you fast and productive. If you use Windows, consider upgrading your RAM and playing some games; that's all I can suggest.
 
-{{</ alert >}}
+### Window Management
 
-### Window management
+Most common Linux distros come with GNOME or KDE Plasma, which are excellent and a big reason for Linux’s recent improvements. However, I prefer not to use them because I don't want to rely on the mouse to manage windows. I prefer a window manager to streamline my workflow.
 
-So on most common Linux Distros, you will find either GNOME or KDE Plasma installed, which are great and part of the reason why Linux has gotten so good in recent years. But, I don't use them - just because I don't want to touch my mouse everytime some new window pops up and drag it somewhere else to see the window behind and all, ugh it's a waste of time as well as mental energy.
+#### Tiling Window Manager
 
-That's why I use a window manager!
-Now you can go into the rabit hole find all the Window managers you can and then brag about them on Reddit, we are not going to do that, choose what you prefer and stick with it.
+A tiling window manager automatically tiles and splits your windows, allowing you to quickly view and manage your open applications. I have set my `ALT` key as the main modifier, and use the following shortcuts:
 
-So what I what is I don't want any mental burden when I want to go to my browser or terminal or Discord. I just want to get there without thinking, cause this is why humans have muscle memory!
+- `Alt + 1` to switch to my browser on the 1st workspace.
+- `Alt + 2` to switch to my terminal on the 2nd workspace.
+- And so on, with workspaces typically maximized.
 
-I have set my ALT key as MainMod and when I press :
+This setup allows me to quickly switch between tasks without worrying about window positions.
 
-- `Alt + 1`, I go to my browser on 1st workspace.
-- `Alt + 2`, I go to my terminal on 2nd workspace.
+I can cycle through windows using `Alt + HJKL`, similar to Vim. Focused windows have highlighted borders, making navigation straightforward.
 
-and soo on which are usually maximised.
+### Terminal Workflow
 
-This will help you most fast between your stuff and not worry about their positions.
+In my terminal, I use `tmux`, a terminal multiplexer that lets you split your terminal into multiple panes. This setup eliminates the need to switch between workspaces just to work on another terminal. It also helps me avoid multiple displays, which can be distracting and bad for posture.
 
-#### Tiling
+#### Using Tmux
 
-As the name suggests, Tiling Window Manager auto tiles and splits your windows, whenever a new window appears, your can see an example in the gif below.
+Tmux has a prefix key (`Ctrl + a` in my case) that triggers tmux commands. For example, after pressing the prefix key, you can switch between panes using numbers or navigate to the next pane with `prefix + n`. Tmux also keeps sessions alive, so if you accidentally close the terminal window, you can resume your work by running `tmux a`.
+
+### Programming
+
+For programming, I use Neovim instead of VS Code.
+
+#### Why Neovim?
+
+- VS Code is bloated and slow.
+- Neovim runs in the terminal.
+- I prefer Vim motions for efficient text editing.
+- I don’t use the mouse (more on this later).
+
+### Inside a Codebase
+
+When starting work, I navigate to the desired directory and run `nvim .`, which opens Neovim in that directory (similar to VS Code’s `code .`).
+
+#### Opening a File
+
+I use Telescope, a fuzzy finder in Neovim, to search and navigate between files quickly. For example, to find `src/app/components/about/AboutUs.tsx`, I simply search for `about` in Telescope. It handles typos and finds the relevant file swiftly.
+
+#### Moving Between Files
+
+To manage multiple open files, I use the Harpoon plugin, developed by The Primeagen. Harpoon lets me mark frequently used files and switch between them easily without cluttering my workspace. It also saves cursor positions, enhancing productivity.
+
+## Conclusion
+
+This setup enables an exceptionally fast workflow and keeps development exciting. There is always room for improvement, and I’ve tailored my workflow to work best for me through experimentation and learning. The key is to try new things, step out of your comfort zone, and develop unique skills that make you a great developer.
