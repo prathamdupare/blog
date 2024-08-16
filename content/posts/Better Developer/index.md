@@ -4,7 +4,6 @@ title: My dev workflow - Linux, Hyprland ,Neovim and Tmux.
 date: 2024-08-16
 description: ""
 tags: ["Reading"]
-thumbnail: "/2022/komikku-manga-reader/thumbnail.png"
 ---
 
 {{< alert >}}
@@ -40,6 +39,12 @@ Most common Linux distros come with GNOME or KDE Plasma, which are excellent and
 
 #### Tiling Window Manager
 
+{{< figure
+    src="../Better Developer/1.png"
+    alt="Telescope"
+    caption="Auto Tiling new Terminal windows"
+    >}}
+
 A tiling window manager automatically tiles and splits your windows, allowing you to quickly view and manage your open applications. I have set my `ALT` key as the main modifier, and use the following shortcuts:
 
 - `Alt + 1` to switch to my browser on the 1st workspace.
@@ -60,6 +65,12 @@ Tmux has a prefix key (`Ctrl + a` in my case) that triggers tmux commands. For e
 
 ### Programming
 
+{{< figure
+    src="../Better Developer/0.9.jpg"
+    alt="Telescope"
+    caption="Neovim as my primary edito as my primary editorr"
+    >}}
+
 For programming, I use Neovim instead of VS Code.
 
 #### Why Neovim?
@@ -75,9 +86,21 @@ When starting work, I navigate to the desired directory and run `nvim .`, which 
 
 #### Opening a File
 
-I use Telescope, a fuzzy finder in Neovim, to search and navigate between files quickly. For example, to find `src/app/components/about/AboutUs.tsx`, I simply search for `about` in Telescope. It handles typos and finds the relevant file swiftly.
+{{< figure
+    src="../Better Developer/2.png"
+    alt="Telescope"
+    caption="Fuzzy finding file with Telescope"
+    >}}
+
+I use Telescope, a fuzzy finder in Neovim, to search and navigate between files quickly. For example, to find `src/app/components/about/AboutUs.tsx`, I simply open Telescope by pressing `Space + Space` where space is the leader key and search for `about` in Telescope. It handles typos and finds the relevant file swiftly.
 
 #### Moving Between Files
+
+{{< figure
+    src="../Better Developer/3.png"
+    alt="Telescope"
+    caption="Moving between files using Harpoon"
+    >}}
 
 To manage multiple open files, I use the Harpoon plugin, developed by The Primeagen. Harpoon lets me mark frequently used files and switch between them easily without cluttering my workspace. It also saves cursor positions, enhancing productivity.
 
