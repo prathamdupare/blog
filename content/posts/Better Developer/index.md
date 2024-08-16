@@ -66,9 +66,9 @@ Tmux has a prefix key (`Ctrl + a` in my case) that triggers tmux commands. For e
 ### Programming
 
 {{< figure
-    src="../Better Developer/0.9.jpg"
+    src="../Better Developer/0.9.png"
     alt="Telescope"
-    caption="Neovim as my primary edito as my primary editorr"
+    caption="Moving between files using Harpoon"
     >}}
 
 For programming, I use Neovim instead of VS Code.
@@ -86,7 +86,6 @@ When starting work, I navigate to the desired directory and run `nvim .`, which 
 
 #### Opening a File
 
-<img class="special-img-class" src="/2022/komikku-manga-reader/komikku_servers.png" />
 {{< figure
     src="/2024/developer/2.png"
     alt="Telescope"
@@ -98,9 +97,9 @@ I use Telescope, a fuzzy finder in Neovim, to search and navigate between files 
 #### Moving Between Files
 
 {{< figure
-    src="../Better Developer/3.png"
+    src="/2024/developer/3.png"
     alt="Telescope"
-    caption="Moving between files using Harpoon"
+    caption="Fuzzy finding file with Telescope"
     >}}
 
 To manage multiple open files, I use the Harpoon plugin, developed by The Primeagen. Harpoon lets me mark frequently used files and switch between them easily without cluttering my workspace. It also saves cursor positions, enhancing productivity.
