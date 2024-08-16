@@ -42,7 +42,7 @@ Most common Linux distros come with GNOME or KDE Plasma, which are excellent and
 {{< figure
     src="/2024/developer/1.png"
     alt="Telescope"
-    caption="Fuzzy finding file with Telescope"
+    caption="Auto Tiling new Terminal Windows"
     >}}
 
 A tiling window manager automatically tiles and splits your windows, allowing you to quickly view and manage your open applications. I have set my `ALT` key as the main modifier, and use the following shortcuts:
@@ -66,7 +66,7 @@ Tmux has a prefix key (`Ctrl + a` in my case) that triggers tmux commands. For e
 ### Programming
 
 {{< figure
-    src="/2024/developer/0.9.png"
+    src="/2024/developer/0.9.jpg"
     alt="Telescope"
     caption="Neovim as my primary text editor"
     >}}
