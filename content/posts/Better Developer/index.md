@@ -40,9 +40,9 @@ Most common Linux distros come with GNOME or KDE Plasma, which are excellent and
 #### Tiling Window Manager
 
 {{< figure
-    src="../Better Developer/1.png"
+    src="/2024/developer/1.png"
     alt="Telescope"
-    caption="Auto Tiling new Terminal windows"
+    caption="Fuzzy finding file with Telescope"
     >}}
 
 A tiling window manager automatically tiles and splits your windows, allowing you to quickly view and manage your open applications. I have set my `ALT` key as the main modifier, and use the following shortcuts:
@@ -66,9 +66,9 @@ Tmux has a prefix key (`Ctrl + a` in my case) that triggers tmux commands. For e
 ### Programming
 
 {{< figure
-    src="../Better Developer/0.9.png"
+    src="/2024/developer/0.9.png"
     alt="Telescope"
-    caption="Moving between files using Harpoon"
+    caption="Fuzzy finding file with Telescope"
     >}}
 
 For programming, I use Neovim instead of VS Code.
