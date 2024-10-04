@@ -52,7 +52,7 @@ What import alias would you like configured? @/*
 
 - You can optionally use a src directory in the root of your project to separate your application's code from configuration files.
 
-> Note: The latest versions of Next.js use the 'app' router, we will be using that in this series.
+> Note: The latest versions of Next.js uses the 'app' router, we will be using that in this series.
 
 ### Running the Dev Server
 
