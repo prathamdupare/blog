@@ -33,4 +33,5 @@ type: alternative
 
 ## Books
 
-Currently reading - Your next 5 moves - Patrick Bet-David
+The Almanack Of Naval Ravikant: A Guide to Wealth and Happiness
+Book by Eric Jorgenson
