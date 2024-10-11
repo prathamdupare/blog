@@ -15,6 +15,7 @@ type: alternative
 #### Extras
 
 - [ ] Update Neovim config.
+- [ ] Goal to Finish [Practical Python](https://practical.learnpython.dev/001_prerequisites/) today.
 
 ## Oct 10 2024
 
