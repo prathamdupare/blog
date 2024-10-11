@@ -7,6 +7,11 @@ keywords: ["daily", "", ""]
 type: alternative
 ---
 
+## Oct 11 2024
+
+- [ ] Fix failing unit tests.
+- [ ] Implement animations into extension using one of the two libraries - [Tailwind CSS Animate](https://github.com/jamiebuilds/tailwindcss-animate/tree/main) and [romboHQ/tailwindcss-motion](https://github.com/romboHQ/tailwindcss-motion).
+
 ## Oct 10 2024
 
 - [x] Wrote remaining unit tests for front-end components and pushed changes to setup-jest branch and updated the [PR](https://github.com/raooll/kikker/pull/32).
