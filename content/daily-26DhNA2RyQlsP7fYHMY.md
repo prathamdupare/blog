@@ -7,15 +7,23 @@ keywords: ["daily", "", ""]
 type: alternative
 ---
 
+## Oct 12 2024
+
+- [ ] Setup and test two libraries locally for choosing one of them- [Tailwind CSS Animate](https://github.com/jamiebuilds/tailwindcss-animate/tree/main) and [romboHQ/tailwindcss-motion](https://github.com/romboHQ/tailwindcss-motion).
+
+#### Extras
+
+- [ ] Push Neovim config.
+
 ## Oct 11 2024
 
-- [ ] Fix failing unit tests.
+- [x] Fix failing unit tests.
 - [ ] Implement animations into extension using one of the two libraries - [Tailwind CSS Animate](https://github.com/jamiebuilds/tailwindcss-animate/tree/main) and [romboHQ/tailwindcss-motion](https://github.com/romboHQ/tailwindcss-motion).
 
 #### Extras
 
-- [ ] Update Neovim config.
-- [ ] Goal to Finish [Practical Python](https://practical.learnpython.dev/001_prerequisites/) today.
+- [x] Update Neovim config.
+- [x] Goal to Finish [Practical Python](https://practical.learnpython.dev/001_prerequisites/) today.
 
 ## Oct 10 2024
 
