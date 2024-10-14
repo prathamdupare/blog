@@ -18,7 +18,7 @@ type: alternative
 
 ## Oct 12 2024
 
-- [ ] Setup and test two libraries locally for choosing one of them- [Tailwind CSS Animate](https://github.com/jamiebuilds/tailwindcss-animate/tree/main) and [romboHQ/tailwindcss-motion](https://github.com/romboHQ/tailwindcss-motion).
+- [x] Setup and test two libraries locally for choosing one of them- [Tailwind CSS Animate](https://github.com/jamiebuilds/tailwindcss-animate/tree/main) and [romboHQ/tailwindcss-motion](https://github.com/romboHQ/tailwindcss-motion).
 
 #### Extras
 
