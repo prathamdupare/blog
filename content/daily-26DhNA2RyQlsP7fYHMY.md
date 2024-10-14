@@ -10,7 +10,7 @@ type: alternative
 ## Oct 14 2024
 
 - [x] Meet with Samay Bhaiya to discuss tasks, animations and libraries.
-- [ ] Work on intergrating animations in Extension.
+- [x] Work on intergrating animations in Extension.
 
 #### Extras
 
