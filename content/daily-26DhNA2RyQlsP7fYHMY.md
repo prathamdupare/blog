@@ -9,10 +9,8 @@ type: alternative
 
 ## Oct 15 2024
 
-- [ ] Improve animations in Extension and make the PR.
-- [ ] Help Samay Bhaiya for a task (yet to be decided).
-- [ ] Make GitHub repo for python project based learning.
-- [ ] Build a Quiz Application With Python - [Quiz](https://realpython.com/python-quiz-application/).
+- [x] Make GitHub repo for python project based learning.
+- [x] Build a Quiz Application With Python - [Quiz](https://realpython.com/python-quiz-application/).
 
 ## Oct 14 2024
 
