@@ -9,7 +9,9 @@ type: alternative
 
 ## Oct 15 2024
 
-- [x] Improve animations in Extension and make the PR.
+- [ ] Improve animations in Extension and make the PR.
+- [ ] Make GitHub repo for python project based learning.
+- [ ] Build a Quiz Application With Python.
 
 ## Oct 14 2024
 
