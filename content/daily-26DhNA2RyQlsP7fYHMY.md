@@ -7,6 +7,10 @@ keywords: ["daily", "", ""]
 type: alternative
 ---
 
+## Oct 15 2024
+
+- [x] Improve animations in Extension and make the PR.
+
 ## Oct 14 2024
 
 - [x] Meet with Samay Bhaiya to discuss tasks, animations and libraries.
@@ -14,7 +18,7 @@ type: alternative
 
 #### Extras
 
-- [ ] Push Neovim config.
+- [x] Push Neovim config.
 
 ## Oct 12 2024
 
