@@ -7,6 +7,18 @@ keywords: ["daily", "", ""]
 type: alternative
 ---
 
+| Github Links                                                                   | Resources                                                       | Extras |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------- | ------ |
+| [Python Projects](https://github.com/prathamdupare/python-projects)            | [Practice Projects](https://realpython.com/tutorials/projects/) | Info 1 |
+| [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
+| [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
+
+## Oct 16 2024
+
+- [x] Meet with Ekansh Sir.
+- [ ] Finish Reading Python Cheat-sheet.
+- [ ] Create a CLI-based task management tool that allows users to add, delete, and list tasks.
+
 ## Oct 15 2024
 
 - [x] Make GitHub repo for python project based learning.
