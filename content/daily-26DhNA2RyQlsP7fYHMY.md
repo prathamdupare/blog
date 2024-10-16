@@ -18,6 +18,7 @@ type: alternative
 - [x] Meet with Ekansh Sir.
 - [ ] Finish Reading Python Cheat-sheet.
 - [ ] Create a CLI-based task management tool that allows users to add, delete, and list tasks.
+- [ ] Any daily task.
 
 ## Oct 15 2024
 
