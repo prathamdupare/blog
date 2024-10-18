@@ -13,12 +13,18 @@ type: alternative
 | [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
 | [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
 
+## Oct 18 2024
+
+- [x] Learned Hugo imports with go.
+- [x] Make PR for Adding hugo website for kikker and add Logo and Title in Navbar
+- [ ] Make the Navbar Responsive.
+- [ ] Finish Task management CLI.
+
 ## Oct 17 2024
 
 - [x] Make PR for Adding hugo website for kikker.
 - [x] Add minimal Hugo site to Kikker.
-- [ ] Create custom theme.
-- [ ] Work on CLI-based task management tool that allows users to add, delete, and list tasks.
+- [x] Work on CLI-based task management tool that allows users to add, delete, and list tasks.
 
 ## Oct 16 2024
 
