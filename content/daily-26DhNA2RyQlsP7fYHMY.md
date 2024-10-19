@@ -23,8 +23,8 @@ type: alternative
 
 - [x] Learned Hugo imports with go.
 - [x] Make PR for Adding hugo website for kikker and add Logo and Title in Navbar
-- [ ] Make the Navbar Responsive.
-- [ ] Finish Task management CLI.
+- [x] Make the Navbar Responsive.
+- [x] Finish Task management CLI.
 
 ## Oct 17 2024
 
