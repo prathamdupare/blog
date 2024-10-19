@@ -13,6 +13,12 @@ type: alternative
 | [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
 | [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
 
+## Oct 19 2024
+
+- [ ] Convert this into hugo template
+- [ ] create a blog section
+- [ ] create a case study section
+
 ## Oct 18 2024
 
 - [x] Learned Hugo imports with go.
