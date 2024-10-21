@@ -21,7 +21,7 @@ type: alternative
 
 ## Oct 19 2024
 
-- [x] Convert this into hugo template
+- [x] Convert site into hugo template
 - [x] UI changes, Made PR
 
 ## Oct 18 2024
