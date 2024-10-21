@@ -13,10 +13,11 @@ type: alternative
 | [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
 | [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
 
-## Oct 20 2024
+## Oct 21 2024
 
-- [ ] create a blog section
-- [ ] create a case study section
+- [ ] Kikker - Minor CSS changes.
+- [ ] nocodeai- create a blog section
+- [ ] nocodeai - create a case study section
 
 ## Oct 19 2024
 
