@@ -13,11 +13,24 @@ type: alternative
 | [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
 | [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
 
+## Oct 23 2024
+
+- [x] nocodeai - create a case study section.
+- [ ] Style Case Study Section.
+- [ ] Kikker - Fix Page Speeds.
+- [ ] Minor UI changes.
+
+## Oct 22 2024
+
+- [x] Styled blog section page and navbar according to the NoCodeAI theme.
+- [x] Added validation to all forms for Kikker.
+- [x] Submitted PRs for both tasks.
+
 ## Oct 21 2024
 
-- [ ] Kikker - Minor CSS changes.
-- [ ] nocodeai- create a blog section
-- [ ] nocodeai - create a case study section
+- [x] Kikker - Minor CSS changes.
+- [x] nocodeai- create a blog section
+- [x] nocodeai - create a case study section
 
 ## Oct 19 2024
 
