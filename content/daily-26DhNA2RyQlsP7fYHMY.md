@@ -13,6 +13,18 @@ type: alternative
 | [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
 | [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
 
+## Oct 25 2024
+
+- [x] fix mobile speeds and make PRs.
+- [ ] Minify and dump css into html only to increase performance,
+- [ ] need to figure out how to do it with Hugo.
+
+## Oct 24 2024
+
+- NoCodeAI - Add List section for both blog and case-studies.
+- Finalise UI
+- Improve page speeds and SEO.
+
 ## Oct 23 2024
 
 - [x] nocodeai - create a case study section.
