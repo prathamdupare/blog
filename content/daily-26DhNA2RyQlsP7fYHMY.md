@@ -7,11 +7,13 @@ keywords: ["daily", "", ""]
 type: alternative
 ---
 
-| Github Links                                                                   | Resources                                                       | Extras |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------------- | ------ |
-| [Python Projects](https://github.com/prathamdupare/python-projects)            | [Practice Projects](https://realpython.com/tutorials/projects/) | Info 1 |
-| [Kikker](https://github.com/raooll/kikker)                                     |                                                                 | Info 2 |
-| [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare) |                                                                 | Info 3 |
+| Github Links                                                                       | Resources                                                       | Extras |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------- | ------ |
+| [Python Projects](https://github.com/prathamdupare/python-projects)                | [Practice Projects](https://realpython.com/tutorials/projects/) | Info 1 |
+| [Kikker](https://github.com/raooll/kikker)                                         |                                                                 | Info 2 |
+| [Pull Requests - Kikker](https://github.com/raooll/kikker/pulls/prathamdupare)     |                                                                 | Info 3 |
+| [Pull Requests - NoCodeAI](https://github.com/raooll/nocodeai/pulls/prathamdupare) |                                                                 | Info 3 |
+| )                                                                                  |                                                                 | Info 3 |
 
 ## Oct 25 2024
 
