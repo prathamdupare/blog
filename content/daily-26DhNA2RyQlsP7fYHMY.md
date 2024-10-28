@@ -15,11 +15,16 @@ type: alternative
 | [Pull Requests - NoCodeAI](https://github.com/raooll/nocodeai/pulls/prathamdupare) |                                                                 | Info 3 |
 | )                                                                                  |                                                                 | Info 3 |
 
+## Oct 28 2024
+
+- [ ] UI fixed and minification of CSS.
+- [ ] Add animation/loader to the logo
+- [x] Minify and dump css into html only to increase performance,
+
 ## Oct 25 2024
 
 - [x] fix mobile speeds and make PRs.
-- [ ] Minify and dump css into html only to increase performance,
-- [ ] need to figure out how to do it with Hugo.
+- [x] Convert and optimize images.
 
 ## Oct 24 2024
 
