@@ -15,6 +15,22 @@ type: alternative
 | [Pull Requests - NoCodeAI](https://github.com/raooll/nocodeai/pulls/prathamdupare) |                                                                 | Info 3 |
 | )                                                                                  |                                                                 | Info 3 |
 
+## Oct 29 2024
+
+- [ ] Learn about splitting SVGs into smaller sections in figma.
+- [ ] Read about SVG animations in tailwind and plain CSS.
+- [ ] Experiment
+
+## Oct 29 2024
+
+- [x] Fix/Test and make UI responsive (Footer and Header fix)
+
+## Oct 29 2024
+
+- [ ] UI fixed and minification of CSS.
+- [ ] Add animation/loader to the logo
+- [x] Minify and dump css into html only to increase performance,
+
 ## Oct 28 2024
 
 - [ ] UI fixed and minification of CSS.
