@@ -30,9 +30,8 @@ type: alternative
 
 ## Nov 06 2024
 
-- [ ] Learn about splitting SVGs into smaller sections in figma.
-- [ ] Read about SVG animations in tailwind and plain CSS.
-- [ ] Experiment
+- [x] Learn about splitting SVGs into smaller sections in figma.
+- [x] Read about SVG animations in tailwind and plain CSS.
 
 ## Oct 30 2024
 
@@ -45,8 +44,8 @@ type: alternative
 
 ## Oct 29 2024
 
-- [ ] UI fixed and minification of CSS.
-- [ ] Add animation/loader to the logo
+- [x] UI fixed and minification of CSS.
+- [x] Add animation/loader to the logo
 - [x] Minify and dump css into html only to increase performance,
 
 ## Oct 28 2024
