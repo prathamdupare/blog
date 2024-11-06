@@ -15,11 +15,29 @@ type: alternative
 | [Pull Requests - NoCodeAI](https://github.com/raooll/nocodeai/pulls/prathamdupare) |                                                                 | Info 3 |
 | )                                                                                  |                                                                 | Info 3 |
 
-## Oct 29 2024
+## Nov 06 2024
+
+- [ ] Try to maximise performance on throttled network (nocodeai)
+- [ ] update CSS (nocodeai)
+- [ ] make PR
+- [ ] Practice python with a new project
+
+## Nov 06 2024
+
+- [x] Fix Contact page, improve performance,
+- [x] Fix Menu on phone
+- [x] UI updates
+
+## Nov 06 2024
 
 - [ ] Learn about splitting SVGs into smaller sections in figma.
 - [ ] Read about SVG animations in tailwind and plain CSS.
 - [ ] Experiment
+
+## Oct 30 2024
+
+- [x] Learn about splitting SVGs into smaller sections in figma.
+- [x] Read about SVG animations in tailwind and plain CSS.
 
 ## Oct 29 2024
 
