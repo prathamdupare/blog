@@ -6,9 +6,7 @@ description: ""
 tags: ["Reading"]
 ---
 
-{{< alert >}}
 Disclaimer: This is not a guide on how I rice my Window manager, what terminal I use, it's purely how I use my tools.
-{{< /alert >}}
 
 ## Introduction
 
